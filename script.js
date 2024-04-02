@@ -31,7 +31,6 @@ animateText();
 
 const url = window.location.href;
 
-if (url.includes("perfumedoil150")) {
+if (url === "https://webluestore.com.br/perfumedoil150") {
   window.location.href = "https://webluestore.com.br/";
 }
-
